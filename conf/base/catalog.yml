@@ -2,3 +2,21 @@
 #
 # Documentation for this file format can be found in "The Data Catalog"
 # Link: https://kedro.readthedocs.io/en/stable/05_data/01_data_catalog.html
+
+train:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/train.csv
+
+test:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/test.csv
+
+genre_labels:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/genre_labels.csv
+
+sample_submit:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/sample_submit.csv
+
+
